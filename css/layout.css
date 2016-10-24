@@ -23,7 +23,12 @@ img {
     height: auto;
 }
 
-
+html {
+    height: 100%;
+}
+body, html {
+    min-height: 100%;
+}
 /* Text align */
 
 .ba-text-left {
